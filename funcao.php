@@ -13,6 +13,16 @@
         $sub = $number1 - $number2;
         PrintText($sub);
     }
+
+    function Mult($number1, $number2){
+        $mult = $number1*$number2;
+        PrintText($mult);
+    }
+    function Div($number1, $number2){
+        $div = $number1 / $number2;
+        PrintText($div);
+    }
+
     echo "Yumi";
     PrintBR();
     echo "ADS";
