@@ -28,12 +28,18 @@
         $media= ($number1+$number2)/2;
         PrintText($media);
     }
+
+    function Media2($number1, $number2){
+        $media= ($number1+$number2)/2;
+        return $media;
+    }
     echo "Yumi";
     PrintBR();
     echo "ADS";
     $num1 = 10;
-    $num = 10;
+    $num2 = 10;
     PrintText("String qualquer");
-    
+    Media($num1,$num2);
+    PrintText(Media2(10,10));
 
 ?>
