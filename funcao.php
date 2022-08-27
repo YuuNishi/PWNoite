@@ -4,6 +4,7 @@
     }
     function PrintText($text){
         echo $text;
+        PrintBR();
     }
     function Sum($number1, $number2){
         $sum = $number1 + $number2;
@@ -23,9 +24,16 @@
         PrintText($div);
     }
 
+    function Media($number1, $number2){
+        $media= ($number1+$number2)/2;
+        PrintText($media);
+    }
     echo "Yumi";
     PrintBR();
     echo "ADS";
-
+    $num1 = 10;
+    $num = 10;
     PrintText("String qualquer");
+    
+
 ?>
