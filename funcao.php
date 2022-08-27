@@ -33,13 +33,34 @@
         $media= ($number1+$number2)/2;
         return $media;
     }
+    function Calculator($number1, $number2, $opt){
+        switch ($opt){
+            case 1:
+                Sum($number1,$number2);
+                break;
+            case 2:
+                Sub($number1,$number2);
+                break; 
+            case 3:
+                Mult($number1,$number2);
+                break; 
+            case 4:
+                Div($number1,$number2);
+                break;  
+            default: 
+                echo "Valor invalido!!!";
+        }
+    }
     echo "Yumi";
     PrintBR();
     echo "ADS";
+    PrintBR();
     $num1 = 10;
     $num2 = 10;
     PrintText("String qualquer");
     Media($num1,$num2);
     PrintText(Media2(10,10));
+    Calculator($num1, $num2, 1);
+
 
 ?>
